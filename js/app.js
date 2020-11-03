@@ -3,14 +3,14 @@ let todos = [];
 let todosState = [];
 
 // DOMs
-const $todos = document.querySelector('.todos');
-const $inputTodo = document.querySelector('.input-todo');
-const $completeAll = document.querySelector('.complete-all');
-const $clearCompleted = document.querySelector('.clear-completed');
-const $allCheckbox = document.querySelector('.complete-all > .checkbox');
-const $completedTodos = document.querySelector('.completed-todos');
-const $itemsLeft = document.querySelector('.active-todos');
-const $all = document.querySelector('#all');
-const $active = document.querySelector('#active');
-const $completed = document.querySelector('#completed');
-const $nav = document.querySelector('nav');
+let $todos = document.querySelector('.todos');
+let $inputTodo = document.querySelector('.input-todo');
+let $completeAll = document.querySelector('.complete-all');
+let $clearCompleted = document.querySelector('.clear-completed');
+let $allCheckbox = document.querySelector('.complete-all > .checkbox');
+let $completedTodos = document.querySelector('.completed-todos');
+let $itemsLeft = document.querySelector('.active-todos');
+let $all = document.querySelector('#all');
+let $active = document.querySelector('#active');
+let $completed = document.querySelector('#completed');
+let $nav = document.querySelector('nav');
