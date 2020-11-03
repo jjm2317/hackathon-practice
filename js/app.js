@@ -1,5 +1,6 @@
 // State
 let todos = [];
+
 let todosrename = [];
 // 요소 찾기
 
@@ -122,3 +123,4 @@ $nav.onclick = e => {
   if (e.target.id === 'all') render(todos);
   else render(todosrename);
 };
+
